@@ -15,11 +15,11 @@ Confirmation dialog accepts the following optional options, and will
 default to the ones listed here:
 
 ```json
-options =  {
-  dialogText: 'This action will reset all your submitted input. Are you' + 
-    'sure you want to finish?',
-  cancelText: 'Cancel',
-  confirmText: 'Finish'
+{
+  "dialogText": "This action will reset all your submitted input." + 
+    "Are you sure you want to finish?",
+  "cancelText": "Cancel",
+  "confirmText": "Finish"
 }
 ```
 
@@ -35,8 +35,8 @@ dialog.hide();
 
 Listeners can listen for the following events. They are thrown when
 corresponding dialog buttons are pressed:
-* Finish => 'confirmed'
-* Cancel => 'canceled'
+* 'confirmed'
+* 'canceled'
 
 A listener would listen to confirmation of dialog the following way:
 ```javascript
