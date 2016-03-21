@@ -14,12 +14,11 @@ var dialog = new H5P.ConfirmationDialog(options);
 Confirmation dialog accepts the following optional options, and will
 default to the ones listed here:
 
-```json
-{
-  "dialogText": "This action will reset all your submitted input." + 
-    "Are you sure you want to finish?",
-  "cancelText": "Cancel",
-  "confirmText": "Finish"
+```javascript
+var options = {
+  dialogText: 'This action will reset all your submitted input.Are you sure you want to finish?',
+  cancelText: 'Cancel',
+  confirmText: 'Finish'
 }
 ```
 
