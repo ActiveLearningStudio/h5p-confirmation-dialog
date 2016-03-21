@@ -16,9 +16,9 @@ default to the ones listed here:
 
 ```javascript
 var options = {
-  dialogText: 'This action will reset all your submitted input.Are you sure you want to finish?',
+  dialogText: 'Please confirm that you wish to proceed.',
   cancelText: 'Cancel',
-  confirmText: 'Finish'
+  confirmText: 'Confirm'
 }
 ```
 
